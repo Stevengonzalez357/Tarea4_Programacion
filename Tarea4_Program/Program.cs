@@ -23,6 +23,12 @@ namespace Tarea4_Program
 
             Console.WriteLine(vehiculo.MostrarInformacion());
 
+            // Calcular el costo total de la reserva por 7 dias
+
+            double costoTotal = CalcularReserva.CalcularCostoTotal(vehiculo, 7);
+
+            Console.WriteLine($"Costo total por 7 dias: {costoTotal:C}");
+
         }
 
     }
