@@ -19,6 +19,10 @@ namespace Tarea4_Program
             double PrecioConDesc = Vehiculo.descuento.AplicarDescuento(vehiculo.Precio, 20);
             vehiculo.Precio = PrecioConDesc;
 
+            // Mostrar informacion formateada del vehiculo
+
+            Console.WriteLine(vehiculo.MostrarInformacion());
+
         }
 
     }
