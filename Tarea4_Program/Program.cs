@@ -13,6 +13,12 @@ namespace Tarea4_Program
             // Crear una instancia de Vehiculo
 
             Vehiculo vehiculo = new Vehiculo("Chevrolet Camaro", 100);
+
+            // Aplicar descuento de 20%
+
+            double PrecioConDesc = Vehiculo.descuento.AplicarDescuento(vehiculo.Precio, 20);
+            vehiculo.Precio = PrecioConDesc;
+
         }
 
     }
